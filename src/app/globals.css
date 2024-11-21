@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Gothic&display=swap');
+
+*
+{
+padding:0;
+margin:0;
+box-sizing:border-box;
+font-family:"Kameron";
+}
+
+body 
+{
+width:100%;
+height:100vh;
+}
+
+.Text-right
+{
+justify-content:right;
+}
+
+@media screen and (max-width:865px)
+{
+.Text-right
+{
+justify-content:start !important;
+}
+}
